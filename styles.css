@@ -1,0 +1,75 @@
+body {
+    background-color: #001427;
+    color: #edf2f4;
+    font-family: Tahoma;
+  }
+  
+  h1 {
+    margin-bottom: -10;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  form {
+    margin: 2rem auto 4rem auto;
+    width: 75%;
+    background-color: #2b2d42;
+    color: #edf2f4;
+    padding: 10px;
+  }
+  
+  fieldset {
+    margin: 10px;
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 2px solid #8d99ae;
+  }
+  
+  label {
+    display: block;
+    margin: 0 0 0.75rem;
+  }
+  
+  legend {
+    font-size: 1.25rem;
+  }
+  
+  textarea {
+    height: 25%;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    margin: 10px 0 0 0;
+    background-color: #001427;
+    border: 5px solid #001427;
+    color: white;
+  }
+  
+  .inline {
+    width: unset;
+    display: inline;
+  }
+  
+  .top-spacing {
+    margin-top: 2rem;
+  }
+  
+  input[type="submit"] {
+    height: 3em;
+    margin: 1em 0 0 0;
+    background-color: 8d99ae;
+    border: 2.5px solid #edf2f4;
+  }
+  
+  fieldset:last-of-type {
+    border: none;
+  }
+  
+  ::placeholder {
+    color: #8d99ae;
+  }
+  
+   

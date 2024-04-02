@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doozle's</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Doozle's</h1>
+    <p>Frozen Custard</p> 
+    <p id="description">Help us improve with your feedback!</p>
+    <form id="survey-form">
+      <fieldset>
+        <legend>About You</legend>
+        <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+        <label id="email-label" for="email">Email <input id="email" type="email" placeholder="Enter your email" required></label>
+        <label id="number-label" for="number">Age (optional) <input id="number" type="number" min="13" max="120" placeholder="Enter your age"></label>
+      </fieldset>
+      <fieldset class="top-spacing">
+        <legend>About Us</legend>
+        <label>
+          How did you hear about us?
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Google</option>
+            <option value="2">Instagram</option>
+            <option value="3">Facebook</option>
+            <option value="4">X (formerly Twitter)</option>
+            <option value="5">Reddit</option>
+            <option value="6">Other site/blog</option>
+            <option value="7">Billboard</option>
+            <option value="8">Word of mouth</option>
+            <option value="9">Alreay knew about Doozle's</option>
+          </select>
+        </label>
+        <label class="top-spacing">
+          Would you recommend Doozle's to a friend?
+          <label for="recommend-no"><input id="recommend-no" class="inline" type="radio" name="recommend" value="yes"> Yes</label>
+          <label for="recommend-yes"><input id="recommend-yes" class="inline" type="radio" name="recommend" value="no"> No</label>
+          <label for="recommend-maybe"><input id="recommend-maybe" class="inline" type="radio" name="recommend" value="maybe"> Maybe</label>
+        </label>
+        <label class="top-spacing">
+          What would you like to see improved? (Check all that apply)
+          <label for="improve-quality"><input id="improve-quality" class="inline" type="checkbox" name="improve" value="quality"> Quality</label>
+          <label for="menu"><input id="menu" class="inline" type="checkbox" name="improve" value="menu"> Better menu / more options</label>
+          <label for="customer-service"><input id="customer-service" class="inline" type="checkbox" name="improve" value="customer-service"> Customer service</label>
+          <label for="speed"><input id="speed" class="inline" type="checkbox" name="improve" value="speed"> Speed</label>
+          <label for="cleanlines"><input id="cleanliness" class="inline" type="checkbox" name="improve" value="cleanliness"> Cleanliness</label>
+        </label>
+        <label class="top-spacing" for="comments">
+          Any additional comments or suggestions?
+          <textarea id="comments" name="comments" placeholder="Any comments, concerns, or questions here..."></textarea>
+        </label>
+        <input id="submit" type="submit" vale="Submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
